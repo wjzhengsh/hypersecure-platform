@@ -6,6 +6,7 @@ IBM Cloud Hyper Protect Developer Starter Kits
 
     {: .navgroup id="learn"}
     index.md
+    how_it_works.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
