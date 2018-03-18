@@ -88,7 +88,7 @@ This BFF starter kit provides you the Swift development language and the Kitura 
 8. Open a terminal window, navigate to the extracted folder, and execute `swift package generate-xcodeproj` to generate XCode project for the Swift code.
 9. In your Finder, open the README.md file and scroll down to the **Run** section. Execute the following command and script in your terminal window.
     1. Execute `swift build -Xlinker -lc++` to build the application. Enter `n` if you are reminded to correct `build` to `.build`.
-    2. Execute the `.build/debug/BackendforIBMHyperProtectServicesyyyyy` script where **yyyyy** is your project name suffix. Click **Allow** if you are asked whether your application accepts incoming network connections. <!--For more information about this script, see [How it works](how_it_works.html).-->
+    2. Execute the `.build/debug/BackendforIBMHyperProtectServicesyyyyy` script where **yyyyy** is your project name suffix. Click **Allow** if you are asked whether your application accepts incoming network connections. For more information about this script, see [How it works](how_it_works.html).
     After the execution completes, you can visit `localhost:8080/explorer` in your web browser to see the APIs.
 10. Write code to implement your application logic and test it in Xcode locally. When your application is ready, you can deploy it to {{site.data.keyword.cloud_notm}}. For more information, see [Deploying an application](#eploy).
 
