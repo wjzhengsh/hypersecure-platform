@@ -78,9 +78,12 @@ This BFF starter kit provides you the Swift development language and the Kitura 
     1. Click **Add Resource**.
     2. Choose **Data** and click **Next**.
     3. Choose **HyperSecure DBaaS** and click **Next**.
-    4. Specify the cluster name, admin name, and password for your database and click **Create**. Ensure that you have a strong password that includes numbers, mixed upper and lower case characters and symbols. Wait for a while when the starter kit provisions HyperSecure DBaaS instance.
-    Note that HyperSecure DBaaS is a mumber of the {{site.data.keyword.cloud_notm}} Hyper Protect Services family and the name "HyperSecure DBaaS" will change shortly.
-6. Click **Download Code** on the top right to generate the archive of the initial project code. Save the archive file to your local machine.
+    4. Specify the cluster name, admin name, and password for your database and click **Create**. Ensure that you have a strong password that includes numbers, mixed upper and lower case characters and symbols. Wait for a while when the starter kit provisions HyperSecure DBaaS instance. Note that HyperSecure DBaaS is a member of the {{site.data.keyword.cloud_notm}} Hyper Protect Services family and the name "HyperSecure DBaaS" will change shortly.  
+    **Tip**: If you get a resource limit warning as below, check all your Cloud Foundry organizations and spaces and delete any other running services.  
+    ![Resource limit warning](image/resource_limit.png "Resource limit warning")
+6. Click **Download Code** on the top right to generate the archive of the initial project code. Save the archive file to your local machine.  
+    **Tip**: If you get a 404 bad request as below, clear you cookies and cached data in your browser, and then try again.  
+    ![404 Bad Request](image/404.png "404 Bad Request")  
 7. Extract the archive file that you download.
 8. Open a terminal window, navigate to the extracted folder, and execute `swift package generate-xcodeproj` to generate XCode project for the Swift code.
 9. In your Finder, open the README.md file and scroll down to the **Run** section. Execute the following command and script in your terminal window.
