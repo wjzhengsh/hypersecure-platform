@@ -51,7 +51,7 @@ For more information about requirements for Swift development on {{site.data.key
 This iOS starter kit pre-configures a MBaaS environment for your application development with addtional Hyper Protect services. You can start to develop your applications in a more secure environment with the integration of a set of {{site.data.keyword.cloud_notm}} services. You can benefit from Mobile Analytics, Push Notifications, and {{site.data.keyword.hscrypto}}.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://console.bluemix.net/developer/appledevelopment/dashboard) with your {{site.data.keyword.cloud_notm}} account.
-2. Click **Starter Kits** from the left navigator.
+<!--2. Click **Starter Kits** from the left navigator.-->
 3. Choose and click the **MBaas with IBM Hyper Protect Services** starter kit. You can see the overview of the starter kit including the services that the starter kit pre-configures. Click **Create project**.
 4. Choose the Cloud Foundry region, organization, and space where you want to store your project, and pricing plans for pre-configured services. Then, click **Create Project**.
     The starter kit automatically adds the service **Push Notification**, **{{site.data.keyword.hscrypto}}**, and **Mobile Analytics** to your project. You can click the "Documentation" links after the service name to learn more about these services.
