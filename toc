@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hypersecure-platform" audience="service" href="/docs/services/hypersecure-platform/index.html"}
+{: .toc subcollection="hypersecure-platform" audience="service" href="/docs/services/hypersecure-platform/index.html" path="services/hypersecure-platform"}
 IBM Cloud Hyper Protect Developer Starter Kits
 
     {: .navgroup id="learn"}
