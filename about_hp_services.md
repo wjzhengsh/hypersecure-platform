@@ -1,12 +1,12 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-03-16"
+  years: 2018, 2019
+lastupdated: "2019-08-09"
 
 ---
 
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:codeblock: .codeblock}
@@ -44,7 +44,7 @@ Hyper Protect DBaaS secures your data at rest, in use, and in flight in a highly
 
 For more information about Hyper Protect DBaaS, see [Getting started with HyperSecure DBaaS](https://console.bluemix.net/docs/services/hypersecure-dbaas/index.html).
 
-
+<!--
 ## **{{site.data.keyword.cloud_notm}} {{site.data.keyword.hscontainers}}**  
 
 {{site.data.keyword.cloud_notm}} Container delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
@@ -52,3 +52,4 @@ For more information about Hyper Protect DBaaS, see [Getting started with HyperS
 **Note**: {{site.data.keyword.hscontainers}} is now available to only sponsor users. If you expect dedicated security support, register as sponsor users with the [IBM Z Client Feedback Program](https://www-01.ibm.com/marketing/iwm/iwmdocs/web/cc/earlyprograms/zcustomer.shtml) to deploy your application to the {{site.data.keyword.hscontainers}} cluster.
 
 For more information about {{site.data.keyword.cloud_notm}} Container, see [Getting started with {{site.data.keyword.cloud_notm}} Container Service](https://console.bluemix.net/docs/containers/container_index.html#container_index).
+-->
