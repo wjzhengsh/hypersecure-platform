@@ -1,12 +1,12 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-03-16"
+  years: 2018, 2019
+lastupdated: "2019-08-09"
 
 ---
 
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:codeblock: .codeblock}
@@ -14,7 +14,7 @@ lastupdated: "2018-03-16"
 
 # Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.hsplatform}}
 
-{{site.data.keyword.cloud}} {{site.data.keyword.hsplatform}} ({{site.data.keyword.hsplatform}} for short) ensures that your iOS applications and data are in a highly-protected environment in {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.cloud}} {{site.data.keyword.hsplatform}} (*{{site.data.keyword.hsplatform}}* for short) ensures that your iOS applications and data are in a highly-protected environment in {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
 {{site.data.keyword.hsplatform}} offers you an iOS starter kit and a server-side starter kit in {{site.data.keyword.cloud_notm}}, which both simplify your steps to set up a secure development environment. A starter kit provides you the development evironment with the development language, the framework, and the architecture pattern.
@@ -114,9 +114,9 @@ You can use both **MBaas with IBM Hyper Protect Services** (referenced as **fron
 
 The {{site.data.keyword.hsplatform}} starter kits enable you to deploy your application to {{site.data.keyword.cloud_notm}} through an easy-to-use UI.
 
-Before you begin, you need to create a Kubernetes cluster with [{{site.data.keyword.cloud_notm}} Container Service](https://console-dal10.bluemix.net/containers-kubernetes/clusters) as a worker node to host your application.
+Before you begin, you need to create a cluster with [{{site.data.keyword.cloud_notm}} Kubernetes Service](https://cloud.ibm.com/kubernetes/clusters) as a worker node to host your application.
 
-1. In the [{{site.data.keyword.cloud_notm}} Developer Projects dashboard](https://console.bluemix.net/developer/appledevelopment/projects), click **Projects** in the left navigator.
+1. In the [{{site.data.keyword.cloud_notm}} Developer Projects dashboard](https://cloud.ibm.com/developer/appledevelopment/projects), click **Projects** in the left navigator.
 2. Click and open your backend project, that is, **BackendforIBMHyperProtectServicesyyyyy**.
 3. Click **Deploy to cloud**. Choose to deploy your application in a Kubernetes cluster. Choose the cluster that you want to use from the dropdown list. Click **Create**. The deployment creates a Git repository and stores your generated code. It also creates a DevOps toolchain that includes creating and managing issues in Git, viewing generated code in Git, accessing an Eclipse-base Web IDE, and viewing the delivery pipeline. In the delivery pipeline, you can kick off builds, manage deployment and view logs and history.
 4. Click **View Toolchain** and click **Git**.
@@ -124,8 +124,10 @@ Before you begin, you need to create a Kubernetes cluster with [{{site.data.keyw
 
 Now your application is successfully deployed to {{site.data.keyword.cloud_notm}}.
 
-You can also use command line interfaces (CLIs) to deploy your applications to {{site.data.keyword.cloud_notm}}. For more information, see [Deploying apps with the CLI](https://console.bluemix.net/docs/containers/cs_app.html#app_cli).
+You can also use command line interfaces (CLIs) to deploy your applications to {{site.data.keyword.cloud_notm}}. For more information, see [Deploying apps with the CLI](https://cloud.ibm.com/docs/containers?topic=containers-app#app_cli).
 
 After you deploy your application to {{site.data.keyword.cloud_notm}}, you will get an URL from the UI or CLI.  You can use this URL to access the backend server.
 
+<!--
 **Note**: If you expect dedicated security support and deploy your application to the {{site.data.keyword.hscontainers}} cluster, register as sponsor users with the [IBM Z Client Feedback Program](https://www-01.ibm.com/marketing/iwm/iwmdocs/web/cc/earlyprograms/zcustomer.shtml).
+-->
