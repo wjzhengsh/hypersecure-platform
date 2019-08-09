@@ -12,6 +12,7 @@ IBM Cloud Hyper Protect Developer Starter Kits
     {: .navgroup id="reference"}
     about_hp_services.md
     [Hyper Protect Cypto Services](https://console.bluemix.net/docs/services/hs-crypto/index.html)
-    [Hyper Protect DBaaS](https://console.bluemix.net/docs/services/hyper-protect-dbaas/index.html)
+    [Hyper Protect DBaaS for MongoDB](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+    [Hyper Protect DBaaS for PostgreSQL](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)
     [Container Services](https://console.bluemix.net/docs/containers/container_index.html)
     {: .navgroup-end}
