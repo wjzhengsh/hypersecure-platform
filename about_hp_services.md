@@ -38,12 +38,14 @@ For more information about {{site.data.keyword.keymanagementserviceshort}}, see 
 
 ## **{{site.data.keyword.cloud_notm}} Hyper Protect DBaaS**  
 
-{{site.data.keyword.cloud_notm}} Hyper Protect DBaaS provides databases on demand in {{site.data.keyword.cloud_notm}} to offer a flexible and scalable platform that allows you to quickly and easily provision and manage your database. Hyper Protect DBaaS offers MongoDB database clusters wiht two database instance replicas to back up one primary database instance. You can create database clusters in the IBM Cloud, manage database instances, administer database users, and create and monitor databases.
+{{site.data.keyword.cloud_notm}} Hyper Protect DBaaS provides databases on demand in {{site.data.keyword.cloud_notm}} to offer a flexible and scalable platform that allows you to quickly and easily provision and manage your database. Hyper Protect DBaaS offers MongoDB database clusters or PostgrepSQL database clusters with two database instance replicas to back up one primary database instance. You can create database clusters in the {{site.data.keyword.cloud_notm}}, manage database instances, administer database users, and create and monitor databases.
 
 Hyper Protect DBaaS secures your data at rest, in use, and in flight in a highly available and secure environment. It prevents IBM or a third party from being able to access your data. Access to the system is restricted and is only enabled through well-defined RESTful APIs. The system hardware, the system configuration, and the database setup ensure high availability.
 
-For more information about Hyper Protect DBaaS, see [Getting started with HyperSecure DBaaS](https://console.bluemix.net/docs/services/hypersecure-dbaas/index.html).
-
+For more information about Hyper Protect DBaaS, see the following documentation:
+- [Getting started with Hyper Protect DBaaS for MongoDB](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with Hyper Protect DBaaS for PostgreSQL](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)
+    
 <!--
 ## **{{site.data.keyword.cloud_notm}} {{site.data.keyword.hscontainers}}**  
 
