@@ -1,12 +1,12 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-03-16"
+  years: 2018, 2019
+lastupdated: "2019-08-09"
 
 ---
 
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:codeblock: .codeblock}
@@ -14,7 +14,7 @@ lastupdated: "2018-03-16"
 
 # Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.hsplatform}}
 
-{{site.data.keyword.cloud}} {{site.data.keyword.hsplatform}} ({{site.data.keyword.hsplatform}} for short) ensures that your iOS applications and data are in a highly-protected environment in {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.cloud}} {{site.data.keyword.hsplatform}} (*{{site.data.keyword.hsplatform}}* for short) ensures that your iOS applications and data are in a highly-protected environment in {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
 {{site.data.keyword.hsplatform}} offers you an iOS starter kit and a server-side starter kit in {{site.data.keyword.cloud_notm}}, which both simplify your steps to set up a secure development environment. A starter kit provides you the development evironment with the development language, the framework, and the architecture pattern.
@@ -51,7 +51,7 @@ For more information about requirements for Swift development on {{site.data.key
 This iOS starter kit pre-configures a MBaaS environment for your application development with addtional Hyper Protect services. You can start to develop your applications in a more secure environment with the integration of a set of {{site.data.keyword.cloud_notm}} services. You can benefit from Mobile Analytics, Push Notifications, and {{site.data.keyword.hscrypto}}.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://console.bluemix.net/developer/appledevelopment/dashboard) with your {{site.data.keyword.cloud_notm}} account.
-2. Click **Starter Kits** from the left navigator.
+<!--2. Click **Starter Kits** from the left navigator.-->
 3. Choose and click the **MBaas with IBM Hyper Protect Services** starter kit. You can see the overview of the starter kit including the services that the starter kit pre-configures. Click **Create project**.
 4. Choose the Cloud Foundry region, organization, and space where you want to store your project, and pricing plans for pre-configured services. Then, click **Create Project**.
     The starter kit automatically adds the service **Push Notification**, **{{site.data.keyword.hscrypto}}**, and **Mobile Analytics** to your project. You can click the "Documentation" links after the service name to learn more about these services.
@@ -78,14 +78,17 @@ This BFF starter kit provides you the Swift development language and the Kitura 
     1. Click **Add Resource**.
     2. Choose **Data** and click **Next**.
     3. Choose **HyperSecure DBaaS** and click **Next**.
-    4. Specify the cluster name, admin name, and password for your database and click **Create**. Ensure that you have a strong password that includes numbers, mixed upper and lower case characters and symbols. Wait for a while when the starter kit provisions HyperSecure DBaaS instance.
-    Note that HyperSecure DBaaS is a mumber of the {{site.data.keyword.cloud_notm}} Hyper Protect Services family and the name "HyperSecure DBaaS" will change shortly.
-6. Click **Download Code** on the top right to generate the archive of the initial project code. Save the archive file to your local machine.
+    4. Specify the cluster name, admin name, and password for your database and click **Create**. Ensure that you have a strong password that includes numbers, mixed upper and lower case characters and symbols. Wait for a while when the starter kit provisions HyperSecure DBaaS instance. Note that HyperSecure DBaaS is a member of the {{site.data.keyword.cloud_notm}} Hyper Protect Services family and the name "HyperSecure DBaaS" will change shortly.  
+    **Tip**: If you get a resource limit warning as below, check all your Cloud Foundry organizations and spaces and delete any other running services.  
+    ![Resource limit warning](image/resource_limit.png "Resource limit warning")
+6. Click **Download Code** on the top right to generate the archive of the initial project code. Save the archive file to your local machine.  
+    **Tip**: If you get a 404 bad request as below, clear you cookies and cached data in your browser, and then try again.  
+    ![404 Bad Request](image/404.png "404 Bad Request")  
 7. Extract the archive file that you download.
 8. Open a terminal window, navigate to the extracted folder, and execute `swift package generate-xcodeproj` to generate XCode project for the Swift code.
 9. In your Finder, open the README.md file and scroll down to the **Run** section. Execute the following command and script in your terminal window.
     1. Execute `swift build -Xlinker -lc++` to build the application. Enter `n` if you are reminded to correct `build` to `.build`.
-    2. Execute the `.build/debug/BackendforIBMHyperProtectServicesyyyyy` script where **yyyyy** is your project name suffix. Click **Allow** if you are asked whether your application accepts incoming network connections. <!--For more information about this script, see [How it works](how_it_works.html).-->
+    2. Execute the `.build/debug/BackendforIBMHyperProtectServicesyyyyy` script where **yyyyy** is your project name suffix. Click **Allow** if you are asked whether your application accepts incoming network connections. For more information about this script, see [How it works](how_it_works.html).
     After the execution completes, you can visit `localhost:8080/explorer` in your web browser to see the APIs.
 10. Write code to implement your application logic and test it in Xcode locally. When your application is ready, you can deploy it to {{site.data.keyword.cloud_notm}}. For more information, see [Deploying an application](#eploy).
 
@@ -111,9 +114,9 @@ You can use both **MBaas with IBM Hyper Protect Services** (referenced as **fron
 
 The {{site.data.keyword.hsplatform}} starter kits enable you to deploy your application to {{site.data.keyword.cloud_notm}} through an easy-to-use UI.
 
-Before you begin, you need to create a Kubernetes cluster with [{{site.data.keyword.cloud_notm}} Container Service](https://console-dal10.bluemix.net/containers-kubernetes/clusters) as a worker node to host your application.
+Before you begin, you need to create a cluster with [{{site.data.keyword.cloud_notm}} Kubernetes Service](https://cloud.ibm.com/kubernetes/clusters) as a worker node to host your application.
 
-1. In the [{{site.data.keyword.cloud_notm}} Developer Projects dashboard](https://console.bluemix.net/developer/appledevelopment/projects), click **Projects** in the left navigator.
+1. In the [{{site.data.keyword.cloud_notm}} Developer Projects dashboard](https://cloud.ibm.com/developer/appledevelopment/projects), click **Projects** in the left navigator.
 2. Click and open your backend project, that is, **BackendforIBMHyperProtectServicesyyyyy**.
 3. Click **Deploy to cloud**. Choose to deploy your application in a Kubernetes cluster. Choose the cluster that you want to use from the dropdown list. Click **Create**. The deployment creates a Git repository and stores your generated code. It also creates a DevOps toolchain that includes creating and managing issues in Git, viewing generated code in Git, accessing an Eclipse-base Web IDE, and viewing the delivery pipeline. In the delivery pipeline, you can kick off builds, manage deployment and view logs and history.
 4. Click **View Toolchain** and click **Git**.
@@ -121,8 +124,10 @@ Before you begin, you need to create a Kubernetes cluster with [{{site.data.keyw
 
 Now your application is successfully deployed to {{site.data.keyword.cloud_notm}}.
 
-You can also use command line interfaces (CLIs) to deploy your applications to {{site.data.keyword.cloud_notm}}. For more information, see [Deploying apps with the CLI](https://console.bluemix.net/docs/containers/cs_app.html#app_cli).
+You can also use command line interfaces (CLIs) to deploy your applications to {{site.data.keyword.cloud_notm}}. For more information, see [Deploying apps with the CLI](https://cloud.ibm.com/docs/containers?topic=containers-app#app_cli).
 
 After you deploy your application to {{site.data.keyword.cloud_notm}}, you will get an URL from the UI or CLI.  You can use this URL to access the backend server.
 
+<!--
 **Note**: If you expect dedicated security support and deploy your application to the {{site.data.keyword.hscontainers}} cluster, register as sponsor users with the [IBM Z Client Feedback Program](https://www-01.ibm.com/marketing/iwm/iwmdocs/web/cc/earlyprograms/zcustomer.shtml).
+-->
