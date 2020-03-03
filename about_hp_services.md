@@ -26,14 +26,14 @@ lastupdated: "2019-08-09"
 
 {{site.data.keyword.hscrypto}} is also the key store for the Key Protect service.
 
-For more information about {{site.data.keyword.hscrypto}}, see [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.hscrypto}}](https://console.stage1.bluemix.net/docs/services/zcrypto/index.html).
+For more information about {{site.data.keyword.hscrypto}}, see [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.hscrypto}}](/docs/services/hs-crypto?topic=hs-crypto-get-started).
 
 
 ## **{{site.data.keyword.cloud_notm}} {{site.data.keyword.keymanagementserviceshort}}**
 
 {{site.data.keyword.keymanagementserviceshort}} helps you provision encrypted keys for apps across IBM Cloud services. As you manage the lifecycle of your keys, you can benefit from knowing that your keys are secured by cloud-based hardware security modules (HSMs) that protect against the theft of information. Together with {{site.data.keyword.hscrypto}}, your keys are secured at the highest security level of FIPS 140-2 Level 4 certificate.
 
-For more information about {{site.data.keyword.keymanagementserviceshort}}, see [Getting started with Key Protect](https://console.bluemix.net/docs/services/keymgmt/index.html).
+For more information about {{site.data.keyword.keymanagementserviceshort}}, see [Getting started with Key Protect](/docs/services/key-protect).
 
 
 ## **{{site.data.keyword.cloud_notm}} Hyper Protect DBaaS**  
@@ -43,9 +43,15 @@ For more information about {{site.data.keyword.keymanagementserviceshort}}, see 
 Hyper Protect DBaaS secures your data at rest, in use, and in flight in a highly available and secure environment. It prevents IBM or a third party from being able to access your data. Access to the system is restricted and is only enabled through well-defined RESTful APIs. The system hardware, the system configuration, and the database setup ensure high availability.
 
 For more information about Hyper Protect DBaaS, see the following documentation:
-- [Getting started with Hyper Protect DBaaS for MongoDB](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
-- [Getting started with Hyper Protect DBaaS for PostgreSQL](https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)
-    
+- [Getting started with Hyper Protect DBaaS for MongoDB](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
+- [Getting started with Hyper Protect DBaaS for PostgreSQL](/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)
+
+## **{{site.data.keyword.cloud_notm}} {{site.data.keyword.hpvs}}**  
+
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.hpvs}} provides highly secure virtual servers that can run Linux applications and containerized workloads. It offers a flexible and scalable framework that you can use to quickly and easily provision and manage the created virtual servers.
+
+For more information about {{site.data.keyword.cloud_notm}} {{site.data.keyword.hpvs}}, see [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.hpvs}}](/docs/services/hp-virtual-servers?topic=hp-virtual-servers-getting-started).
+
 <!--
 ## **{{site.data.keyword.cloud_notm}} {{site.data.keyword.hscontainers}}**  
 
